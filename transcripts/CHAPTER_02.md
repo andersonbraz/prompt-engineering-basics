@@ -101,7 +101,7 @@ Além da classificação, as SVMs também podem ser aplicadas a problemas de reg
 
 Os algoritmos de agrupamento são técnicas utilizadas na área de inteligência artificial para dividir um conjunto de dados em grupos ou clusters baseados em semelhanças ou características em comum. Esses algoritmos são usados para descobrir padrões e estruturas ocultas nos dados sem a necessidade de rótulos predefinidos. A escolha do algoritmo depende da natureza dos dados e do objetivo da análise. Os algoritmos de agrupamento são essenciais para a descoberta de padrões, segmentação de mercado, análise de dados e muito mais.
 
-### O importante aqui é
+### Em síntese
 
 - Algoritmos de Agrupamento são utilizados para dividir um conjunto de dados em grupos ou clusters baseados em semelhanças ou características comum.
 
