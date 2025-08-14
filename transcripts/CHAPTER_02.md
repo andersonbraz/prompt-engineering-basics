@@ -119,6 +119,10 @@ Resumindo, os algoritmos de agrupamento são ferramentas valiosas para análise 
 
 As inteligências artificiais baseadas em modelos de linguagem são ferramentas poderosas na geração e compreensão de textos, o que proporcionou um importante alicerce para a forma como as máquinas interagem com a linguagem humana e se aplicam a uma vasta gama de tarefas. Como o nome indica, são sistemas computacionais projetados para entender e gerar linguagem humana de maneira natural. Esses modelos fazem parte da área de inteligência artificial chamada processamento de linguagem natural, e seu funcionamento se baseia em técnicas de aprendizado de máquina e redes neurais.
 
+### Processamento de Linguagem Natural (PLN)
+
+- Técnicas de aprendizado de máquina e redes neurais.
+
 Basicamente, esses modelos aprendem as estruturas e padrões de linguagem a partir de grandes quantidades de texto. Eles identificam as propriedades das sequências de palavras e aprendem a prever a palavra seguinte de uma frase, dado o histórico das palavras anteriores. Quando o aprendizado é supervisionado, o treinamento é feito com conjuntos de dados enormes contendo textos de diferentes contextos e estilos. Durante o treinamento, o modelo ajusta seus parâmetros para maximizar a probabilidade de prever corretamente as palavras seguintes nos dados de treinamento. Muitos deles se baseiam em redes neurais profundas, principalmente em arquiteturas como os transformadores.
 
 Os transformadores são uma evolução das redes recorrentes e convolucionais, desenvolvidos para melhorar o contexto e as relações a longa distância na linguagem. Por outro lado, seguem uma estratégia de pré-treinamento e aprimoramento. Na etapa de pré-treinamento, o modelo é exposto a enormes quantidades de texto, o que permite coletar conhecimentos gerais. Depois, na etapa de aprimoramento, o modelo é ajustado a uma tarefa específica, como geração ou tradução automática. Um dos aspectos poderosos desses modelos é a capacidade de transferir conhecimentos; por exemplo, um modelo treinado com dados de notícias pode ser aprimorado para tarefas de atendimento ao cliente com resultados eficazes.
