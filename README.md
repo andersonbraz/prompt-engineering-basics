@@ -72,6 +72,10 @@ Na prática, no contexto de SVMs, o objetivo é encontrar um hiperplano que maxi
 
 Esclarecido isso, vamos ao que se pretende alcançar. A função de decisão da SVM pega um novo ponto de dados e determina em que lado do hiperplano ele se encontra. O sinal do valor da função de decisão indica a qual classe o ponto é atribuído. A margem é a distância entre o hiperplano e os vetores de suporte mais próximos. As SVMs buscam maximizar essa margem para obter uma melhor generalização em dados não analisados.
 
+### Margem
+
+- Distância entre o hiperplano e vetores de suporte mais próximos.
+
 As SVMs podem tratar dados que não são linearmente separáveis no espaço original usando funções de kernel. Essas funções transformam os dados em um espaço de maior dimensão, onde eles podem se tornar linearmente separáveis. Alguns exemplos de kernels são o linear, o polinomial e o gaussiano. Inicialmente, as SVMs foram criadas para classificação binária, mas podem ser estendidas a problemas de classificação multiclasse utilizando estratégias como "um contra todos" ou "um contra um".
 
 ### Exemplos de Kernel
