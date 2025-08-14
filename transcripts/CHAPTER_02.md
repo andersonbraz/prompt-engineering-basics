@@ -122,7 +122,8 @@ Há também o agrupamento hierárquico, que constrói uma estrutura hierárquica
 #### DBSCAN
 
 - Encontra clusters
-- Deinir clusters
+- Definir clusters
+- Identifica pontos de ruídos
 
 O deslocamento médio, ou mean shift, busca clusters identificando máximos na função de densidade dos dados. Começa com uma seleção aleatória de pontos e os desloca para regiões de maior densidade; os pontos que convergem no mesmo máximo são agrupados. O GMM (modelo de mistura de gaussianas) modela os dados como uma combinação de distribuições gaussianas, e os dados são atribuídos a clusters com base nas probabilidades de pertencerem a cada distribuição. É útil quando os dados são distribuídos de maneira mais complexa.
 
