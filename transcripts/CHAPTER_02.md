@@ -107,7 +107,22 @@ Os algoritmos de agrupamento são técnicas utilizadas na área de inteligência
 
 Por exemplo, um dos algoritmos de agrupamento mais conhecidos é o k-means, muito utilizado na mineração de dados e no aprendizado de máquina. No início, são selecionados k pontos como centros iniciais, e em seguida os dados são atribuídos ao centro mais próximo. Esses centros são recalculados com base nos dados atribuídos, e o processo é repetido até que haja convergência na atribuição de clusters.
 
+#### K Means
+
+- Mineração de dados
+- Aprendizado de máquina
+
 Há também o agrupamento hierárquico, que constrói uma estrutura hierárquica de clusters, dividindo ou combinando-os sucessivamente. Pode ser aglomerativo, começando com clusters individuais e combinando-os, ou divisivo, começando com todos os dados em um único cluster e dividindo-os. O DBSCAN (Density-Based Spatial Clustering of Applications with Noise) é um algoritmo que encontra clusters com base na densidade dos dados. Ele define clusters como regiões densas e pode identificar pontos de ruído. Os pontos próximos ao ponto central são agrupados em clusters, enquanto os pontos isolados são considerados ruído.
+
+#### Agrupamento hierárquico
+
+- Aglomerativo
+- Divisivo
+
+#### DBSCAN
+
+- Encontra clusters
+- Deinir clusters
 
 O deslocamento médio, ou mean shift, busca clusters identificando máximos na função de densidade dos dados. Começa com uma seleção aleatória de pontos e os desloca para regiões de maior densidade; os pontos que convergem no mesmo máximo são agrupados. O GMM (modelo de mistura de gaussianas) modela os dados como uma combinação de distribuições gaussianas, e os dados são atribuídos a clusters com base nas probabilidades de pertencerem a cada distribuição. É útil quando os dados são distribuídos de maneira mais complexa.
 
