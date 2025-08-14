@@ -127,7 +127,19 @@ Há também o **agrupamento hierárquico**, que constrói uma estrutura hierárq
 
 O deslocamento médio, ou mean shift, busca clusters identificando máximos na função de densidade dos dados. Começa com uma seleção aleatória de pontos e os desloca para regiões de maior densidade; os pontos que convergem no mesmo máximo são agrupados. O **GMM (modelo de mistura de gaussianas)** modela os dados como uma combinação de distribuições gaussianas, e os dados são atribuídos a clusters com base nas probabilidades de pertencerem a cada distribuição. É útil quando os dados são distribuídos de maneira mais complexa.
 
-Temos ainda o agrupamento espectral, que utiliza o espectro da matriz de similaridade entre pontos para atribuí-los aos clusters. Pode capturar relações não lineares e estruturas complexas nos dados. O **BIRCH (Balanced Iterative Reducing and Clustering using Hierarchies)** é um algoritmo que utiliza uma estrutura hierárquica de clusters baseada em árvores, sendo muito eficiente em grandes conjuntos de dados. O **OPTICS (Ordering Points to Identify the Clustering Structure)** é semelhante ao DBSCAN, mas cria um resultado mais completo, proporcionando uma visão ordenada da estrutura de clusters e permitindo uma melhor compreensão da distribuição dos dados.
+#### GMM
+
+- Modela dados
+- Os dados são atribuídos a clusters
+- Útil em distribuições complexas de dados
+
+Temos ainda o **agrupamento espectral**, que utiliza o espectro da matriz de similaridade entre pontos para atribuí-los aos clusters. Pode capturar relações não lineares e estruturas complexas nos dados. O **BIRCH (Balanced Iterative Reducing and Clustering using Hierarchies)** é um algoritmo que utiliza uma estrutura hierárquica de clusters baseada em árvores, sendo muito eficiente em grandes conjuntos de dados. O **OPTICS (Ordering Points to Identify the Clustering Structure)** é semelhante ao DBSCAN, mas cria um resultado mais completo, proporcionando uma visão ordenada da estrutura de clusters e permitindo uma melhor compreensão da distribuição dos dados.
+
+#### Agrupamento espectral
+
+- Utiliza o espectro da matriz
+- Detecta relações não lineares
+- Identifica estruturas complexas nos dados
 
 O agrupamento aglomerativo é uma abordagem hierárquica em que os pontos começam como clusters individuais que são combinados com base em sua similaridade. Cada ponto acaba formando um cluster individual, deixando de lado os exemplos. Um aspecto importante dos algoritmos de agrupamento que os diferencia de outras técnicas é que, ao contrário dos algoritmos de classificação, não exigem rótulos predefinidos para os dados. O objetivo é encontrar padrões e estruturas nos dados sem a necessidade de supervisão; por isso, não é preciso rotulá-los. Por outro lado, como se baseiam na medição de similaridade entre os pontos de dados, quanto mais semelhantes os pontos, maior a probabilidade de que pertençam ao mesmo cluster.
 
