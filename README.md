@@ -102,7 +102,7 @@ As SVMs podem tratar dados que não são linearmente separáveis no espaço orig
 Além da classificação, as SVMs também podem ser aplicadas a problemas de regressão. Nesse caso, em vez de encontrar um hiperplano que divida os dados, busca-se um hiperplano que passe perto da maioria deles, dentro de uma margem especificada. A vantagem é incluir regularização, o que significa penalizar soluções complexas. Isso ajuda a evitar o sobreajuste e melhora a capacidade de generalização do modelo. Por isso, as SVMs são muito úteis quando temos um conjunto de dados com muitas características e buscamos uma solução robusta que generalize bem para dados novos.
 
 Às vezes, a própria generalização faz com que sejam menos precisas em casos específicos, mas sua capacidade de processar dados não linearmente separáveis e sua versatilidade em termos de kernels tornam essa técnica valiosa no aprendizado de máquina.
-__
+___
 
 ### Algoritmos de Agrupamento
 
