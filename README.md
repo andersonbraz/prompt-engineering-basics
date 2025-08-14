@@ -74,6 +74,12 @@ Esclarecido isso, vamos ao que se pretende alcançar. A função de decisão da 
 
 As SVMs podem tratar dados que não são linearmente separáveis no espaço original usando funções de kernel. Essas funções transformam os dados em um espaço de maior dimensão, onde eles podem se tornar linearmente separáveis. Alguns exemplos de kernels são o linear, o polinomial e o gaussiano. Inicialmente, as SVMs foram criadas para classificação binária, mas podem ser estendidas a problemas de classificação multiclasse utilizando estratégias como "um contra todos" ou "um contra um".
 
+### Exemplos de Kernel
+
+- Linear
+- Polinomial
+- Gaussiano
+
 Além da classificação, as SVMs também podem ser aplicadas a problemas de regressão. Nesse caso, em vez de encontrar um hiperplano que divida os dados, busca-se um hiperplano que passe perto da maioria deles, dentro de uma margem especificada. A vantagem é incluir regularização, o que significa penalizar soluções complexas. Isso ajuda a evitar o sobreajuste e melhora a capacidade de generalização do modelo. Por isso, as SVMs são muito úteis quando temos um conjunto de dados com muitas características e buscamos uma solução robusta que generalize bem para dados novos.
 
 Às vezes, a própria generalização faz com que sejam menos precisas em casos específicos, mas sua capacidade de processar dados não linearmente separáveis e sua versatilidade em termos de kernels tornam essa técnica valiosa no aprendizado de máquina.
