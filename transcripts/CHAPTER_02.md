@@ -105,14 +105,14 @@ Os algoritmos de agrupamento são técnicas utilizadas na área de inteligência
 
 - Algoritmos de Agrupamento são utilizados para dividir um conjunto de dados em grupos ou clusters baseados em semelhanças ou características comum.
 
-Por exemplo, um dos algoritmos de agrupamento mais conhecidos é o k-means, muito utilizado na mineração de dados e no aprendizado de máquina. No início, são selecionados k pontos como centros iniciais, e em seguida os dados são atribuídos ao centro mais próximo. Esses centros são recalculados com base nos dados atribuídos, e o processo é repetido até que haja convergência na atribuição de clusters.
+Por exemplo, **um dos algoritmos de agrupamento mais conhecidos é o K-Means**, muito utilizado na mineração de dados e no aprendizado de máquina. No início, são selecionados k pontos como centros iniciais, e em seguida os dados são atribuídos ao centro mais próximo. Esses centros são recalculados com base nos dados atribuídos, e o processo é repetido até que haja convergência na atribuição de clusters.
 
 #### K Means
 
 - Mineração de dados
 - Aprendizado de máquina
 
-Há também o agrupamento hierárquico, que constrói uma estrutura hierárquica de clusters, dividindo ou combinando-os sucessivamente. Pode ser aglomerativo, começando com clusters individuais e combinando-os, ou divisivo, começando com todos os dados em um único cluster e dividindo-os. O DBSCAN (Density-Based Spatial Clustering of Applications with Noise) é um algoritmo que encontra clusters com base na densidade dos dados. Ele define clusters como regiões densas e pode identificar pontos de ruído. Os pontos próximos ao ponto central são agrupados em clusters, enquanto os pontos isolados são considerados ruído.
+Há também o **agrupamento hierárquico**, que constrói uma estrutura hierárquica de clusters, dividindo ou combinando-os sucessivamente. Pode ser aglomerativo, começando com clusters individuais e combinando-os, ou divisivo, começando com todos os dados em um único cluster e dividindo-os. O **DBSCAN (Density-Based Spatial Clustering of Applications with Noise)** é um algoritmo que encontra clusters com base na densidade dos dados. Ele define clusters como regiões densas e pode identificar pontos de ruído. Os pontos próximos ao ponto central são agrupados em clusters, enquanto os pontos isolados são considerados ruído.
 
 #### Agrupamento hierárquico
 
@@ -125,9 +125,9 @@ Há também o agrupamento hierárquico, que constrói uma estrutura hierárquica
 - Definir clusters
 - Identifica pontos de ruídos
 
-O deslocamento médio, ou mean shift, busca clusters identificando máximos na função de densidade dos dados. Começa com uma seleção aleatória de pontos e os desloca para regiões de maior densidade; os pontos que convergem no mesmo máximo são agrupados. O GMM (modelo de mistura de gaussianas) modela os dados como uma combinação de distribuições gaussianas, e os dados são atribuídos a clusters com base nas probabilidades de pertencerem a cada distribuição. É útil quando os dados são distribuídos de maneira mais complexa.
+O deslocamento médio, ou mean shift, busca clusters identificando máximos na função de densidade dos dados. Começa com uma seleção aleatória de pontos e os desloca para regiões de maior densidade; os pontos que convergem no mesmo máximo são agrupados. O **GMM (modelo de mistura de gaussianas)** modela os dados como uma combinação de distribuições gaussianas, e os dados são atribuídos a clusters com base nas probabilidades de pertencerem a cada distribuição. É útil quando os dados são distribuídos de maneira mais complexa.
 
-Temos ainda o agrupamento espectral, que utiliza o espectro da matriz de similaridade entre pontos para atribuí-los aos clusters. Pode capturar relações não lineares e estruturas complexas nos dados. O BIRCH (Balanced Iterative Reducing and Clustering using Hierarchies) é um algoritmo que utiliza uma estrutura hierárquica de clusters baseada em árvores, sendo muito eficiente em grandes conjuntos de dados. O OPTICS (Ordering Points to Identify the Clustering Structure) é semelhante ao DBSCAN, mas cria um resultado mais completo, proporcionando uma visão ordenada da estrutura de clusters e permitindo uma melhor compreensão da distribuição dos dados.
+Temos ainda o agrupamento espectral, que utiliza o espectro da matriz de similaridade entre pontos para atribuí-los aos clusters. Pode capturar relações não lineares e estruturas complexas nos dados. O **BIRCH (Balanced Iterative Reducing and Clustering using Hierarchies)** é um algoritmo que utiliza uma estrutura hierárquica de clusters baseada em árvores, sendo muito eficiente em grandes conjuntos de dados. O **OPTICS (Ordering Points to Identify the Clustering Structure)** é semelhante ao DBSCAN, mas cria um resultado mais completo, proporcionando uma visão ordenada da estrutura de clusters e permitindo uma melhor compreensão da distribuição dos dados.
 
 O agrupamento aglomerativo é uma abordagem hierárquica em que os pontos começam como clusters individuais que são combinados com base em sua similaridade. Cada ponto acaba formando um cluster individual, deixando de lado os exemplos. Um aspecto importante dos algoritmos de agrupamento que os diferencia de outras técnicas é que, ao contrário dos algoritmos de classificação, não exigem rótulos predefinidos para os dados. O objetivo é encontrar padrões e estruturas nos dados sem a necessidade de supervisão; por isso, não é preciso rotulá-los. Por outro lado, como se baseiam na medição de similaridade entre os pontos de dados, quanto mais semelhantes os pontos, maior a probabilidade de que pertençam ao mesmo cluster.
 
