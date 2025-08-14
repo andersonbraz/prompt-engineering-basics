@@ -1,4 +1,4 @@
-# prompt-engineering-basics
+# Prompt Engineering: O Básico
 
 Anotações de estudos de Engenharia de Prompt e IA Generativa.
 
@@ -60,3 +60,20 @@ As árvores de decisão podem sofrer com o sobreajuste aos dados de treinamento 
 - Gradient Boosting
 
 Uma importante vantagem das árvores de decisão é sua capacidade de serem facilmente interpretadas por humanos, já que as decisões são tomadas de forma sequencial e podem ser seguidas de maneira lógica. As árvores de decisão são aplicáveis a diversos problemas, como classificação, regressão e até tarefas mais complexas, como o aprendizado profundo. Trata-se de uma ferramenta versátil na área de inteligência artificial e aprendizado de máquina, graças à sua natureza interpretável e à capacidade de modelar relações não lineares nos dados.
+
+
+## Modelos de máquina de verdade de vetores de suporte
+
+Os modelos de máquinas de vetores de suporte, ou SVMs (em inglês, *Support Vector Machines*), são uma poderosa técnica de aprendizado de máquina utilizada tanto para tarefas de classificação quanto para regressão. São um pouco difíceis de explicar sem se aprofundar em geometria e trigonometria, mas vamos tentar de forma simplificada. Na sua forma mais básica, as SVMs tentam encontrar um hiperplano em um espaço multidimensional que divida duas classes de dados da melhor forma. Esse hiperplano é escolhido de modo a maximizar a distância entre os dados mais próximos das duas classes, a chamada margem máxima. Quando os dados são linearmente separáveis, um hiperplano pode separar perfeitamente as classes. No entanto, em muitos casos, os dados não são totalmente separáveis, por isso é introduzida uma tolerância para permitir certos erros de classificação.
+
+É claro que um hiperplano é um conceito geométrico, utilizado em espaços com mais de duas dimensões, para descrever uma generalização de um plano em três dimensões. Em termos simples, é um subconjunto de um espaço euclidiano multidimensional que tem uma dimensão a menos. Não quero dar aulas de matemática, mas é importante entender isso: em um espaço bidimensional, um hiperplano se reduz a uma linha reta; em um espaço tridimensional, seria um plano; e, em um espaço com mais dimensões, é uma generalização dessas estruturas. Matematicamente, um hiperplano de dimensão (n-1) em um espaço de n dimensões é definido pela equação w₁x₁ + w₂x₂ + ... + wₙxₙ + b = 0, onde w₁, w₂, ..., wₙ são coeficientes que determinam a orientação do hiperplano, x₁, x₂, ..., xₙ são as coordenadas do ponto no espaço, e b é um termo de ajuste.
+
+Na prática, no contexto de SVMs, o objetivo é encontrar um hiperplano que maximize a margem entre duas classes de dados, separando-as de maneira otimizada. Os pontos de dados mais próximos do hiperplano são chamados de vetores de suporte. Eles desempenham um papel fundamental no funcionamento, pois influenciam a localização e a orientação do hiperplano. O objetivo é maximizar a distância entre o hiperplano e esses vetores de suporte.
+
+Esclarecido isso, vamos ao que se pretende alcançar. A função de decisão da SVM pega um novo ponto de dados e determina em que lado do hiperplano ele se encontra. O sinal do valor da função de decisão indica a qual classe o ponto é atribuído. A margem é a distância entre o hiperplano e os vetores de suporte mais próximos. As SVMs buscam maximizar essa margem para obter uma melhor generalização em dados não analisados.
+
+As SVMs podem tratar dados que não são linearmente separáveis no espaço original usando funções de kernel. Essas funções transformam os dados em um espaço de maior dimensão, onde eles podem se tornar linearmente separáveis. Alguns exemplos de kernels são o linear, o polinomial e o gaussiano. Inicialmente, as SVMs foram criadas para classificação binária, mas podem ser estendidas a problemas de classificação multiclasse utilizando estratégias como "um contra todos" ou "um contra um".
+
+Além da classificação, as SVMs também podem ser aplicadas a problemas de regressão. Nesse caso, em vez de encontrar um hiperplano que divida os dados, busca-se um hiperplano que passe perto da maioria deles, dentro de uma margem especificada. A vantagem é incluir regularização, o que significa penalizar soluções complexas. Isso ajuda a evitar o sobreajuste e melhora a capacidade de generalização do modelo. Por isso, as SVMs são muito úteis quando temos um conjunto de dados com muitas características e buscamos uma solução robusta que generalize bem para dados novos.
+
+Às vezes, a própria generalização faz com que sejam menos precisas em casos específicos, mas sua capacidade de processar dados não linearmente separáveis e sua versatilidade em termos de kernels tornam essa técnica valiosa no aprendizado de máquina.
