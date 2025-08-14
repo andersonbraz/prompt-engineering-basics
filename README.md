@@ -72,6 +72,14 @@ Na prática, no contexto de SVMs, o objetivo é encontrar um hiperplano que maxi
 
 Esclarecido isso, vamos ao que se pretende alcançar. A função de decisão da SVM pega um novo ponto de dados e determina em que lado do hiperplano ele se encontra. O sinal do valor da função de decisão indica a qual classe o ponto é atribuído. A margem é a distância entre o hiperplano e os vetores de suporte mais próximos. As SVMs buscam maximizar essa margem para obter uma melhor generalização em dados não analisados.
 
+### Hiperplano
+
+- Um hiperplano é uma generalização de um plano em espaços multidimensionais, sendo um subconjunto de um espaço euclidiano com uma dimensão a menos que o espaço original (ex.: uma linha em 2D, um plano em 3D), definido matematicamente por uma equação linear.
+
+### Espaço euclidiano
+
+- Um sistema matemático baseado na geometria de Euclides, caracterizado por ser um espaço vetorial com uma métrica que obedece às leis da geometria plana, como distâncias e ângulos bem definidos. Ele pode ter qualquer número de dimensões (ex.: 2D, 3D).
+
 ### Margem
 
 - Distância entre o hiperplano e vetores de suporte mais próximos.
