@@ -141,3 +141,9 @@ De qualquer modo, esses modelos são utilizados em uma ampla variedade de aplica
 - Análise de sentimentos
 - Busca de informações
 - Correção gramatical
+
+### Desafios do PLN
+
+- Viés nos dados
+- Informações falsas
+- Compreensão real da linguagem
