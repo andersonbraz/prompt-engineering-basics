@@ -65,7 +65,7 @@ As árvores de decisão podem sofrer com o sobreajuste aos dados de treinamento 
 Uma importante vantagem das árvores de decisão é sua capacidade de serem facilmente interpretadas por humanos, já que as decisões são tomadas de forma sequencial e podem ser seguidas de maneira lógica. As árvores de decisão são aplicáveis a diversos problemas, como classificação, regressão e até tarefas mais complexas, como o aprendizado profundo. Trata-se de uma ferramenta versátil na área de inteligência artificial e aprendizado de máquina, graças à sua natureza interpretável e à capacidade de modelar relações não lineares nos dados.
 ___
 
-### Modelos de máquina de verdade de vetores de suporte
+### Modelos de máquina de vetores de suporte
 
 Os modelos de máquinas de vetores de suporte, ou SVMs (em inglês, *Support Vector Machines*), são uma poderosa técnica de aprendizado de máquina utilizada tanto para tarefas de classificação quanto para regressão. São um pouco difíceis de explicar sem se aprofundar em geometria e trigonometria, mas vamos tentar de forma simplificada. Na sua forma mais básica, as SVMs tentam encontrar um hiperplano em um espaço multidimensional que divida duas classes de dados da melhor forma. Esse hiperplano é escolhido de modo a maximizar a distância entre os dados mais próximos das duas classes, a chamada margem máxima. Quando os dados são linearmente separáveis, um hiperplano pode separar perfeitamente as classes. No entanto, em muitos casos, os dados não são totalmente separáveis, por isso é introduzida uma tolerância para permitir certos erros de classificação.
 
