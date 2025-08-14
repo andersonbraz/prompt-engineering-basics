@@ -86,6 +86,10 @@ Esclarecido isso, vamos ao que se pretende alcançar. A função de decisão da 
 
 As SVMs podem tratar dados que não são linearmente separáveis no espaço original usando funções de kernel. Essas funções transformam os dados em um espaço de maior dimensão, onde eles podem se tornar linearmente separáveis. Alguns exemplos de kernels são o linear, o polinomial e o gaussiano. Inicialmente, as SVMs foram criadas para classificação binária, mas podem ser estendidas a problemas de classificação multiclasse utilizando estratégias como "um contra todos" ou "um contra um".
 
+### Kernels
+
+- Kernels são funções usadas em aprendizado de máquina, especialmente em SVMs, para transformar dados de um espaço original em um espaço de maior dimensão, onde classes não linearmente separáveis podem se tornar separáveis por um hiperplano. Exemplos comuns incluem kernels linear, polinomial e gaussiano, que permitem modelar relações complexas sem calcular explicitamente a transformação.
+
 ### Exemplos de Kernel
 
 - Linear
