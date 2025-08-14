@@ -101,6 +101,10 @@ Além da classificação, as SVMs também podem ser aplicadas a problemas de reg
 
 Os algoritmos de agrupamento são técnicas utilizadas na área de inteligência artificial para dividir um conjunto de dados em grupos ou clusters baseados em semelhanças ou características em comum. Esses algoritmos são usados para descobrir padrões e estruturas ocultas nos dados sem a necessidade de rótulos predefinidos. A escolha do algoritmo depende da natureza dos dados e do objetivo da análise. Os algoritmos de agrupamento são essenciais para a descoberta de padrões, segmentação de mercado, análise de dados e muito mais.
 
+### O importante aqui é
+
+- Algoritmos de Agrupamento são utilizados para dividir um conjunto de dados em grupos ou clusters baseados em semelhanças ou características comum.
+
 Por exemplo, um dos algoritmos de agrupamento mais conhecidos é o k-means, muito utilizado na mineração de dados e no aprendizado de máquina. No início, são selecionados k pontos como centros iniciais, e em seguida os dados são atribuídos ao centro mais próximo. Esses centros são recalculados com base nos dados atribuídos, e o processo é repetido até que haja convergência na atribuição de clusters.
 
 Há também o agrupamento hierárquico, que constrói uma estrutura hierárquica de clusters, dividindo ou combinando-os sucessivamente. Pode ser aglomerativo, começando com clusters individuais e combinando-os, ou divisivo, começando com todos os dados em um único cluster e dividindo-os. O DBSCAN (Density-Based Spatial Clustering of Applications with Noise) é um algoritmo que encontra clusters com base na densidade dos dados. Ele define clusters como regiões densas e pode identificar pontos de ruído. Os pontos próximos ao ponto central são agrupados em clusters, enquanto os pontos isolados são considerados ruído.
