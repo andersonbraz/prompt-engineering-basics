@@ -35,6 +35,7 @@ Para o aprendizado, seja qual for o algoritmo, são utilizadas funções de ativ
 - Tangente hiperbólica
 
 O processo de treinamento da inteligência artificial implica ajustar os pesos das conexões entre os neurônios para que a rede neural faça previsões cada vez mais precisas. Como é de se imaginar, essa etapa exige muito tempo e mão de obra. A verdade é que treinar essas inteligências artificiais pode ser muito complexo, além de demandar grande capacidade de computação, principalmente em modelos profundos, como os transformadores. É normal que ocorram erros ao longo de muitas versões. Agora, você pode lidar com mais tranquilidade com a última bobagem que sua inteligência artificial favorita disse.
+___
 
 ### Arvores de Decisão
 
@@ -62,6 +63,7 @@ As árvores de decisão podem sofrer com o sobreajuste aos dados de treinamento 
 - Gradient Boosting
 
 Uma importante vantagem das árvores de decisão é sua capacidade de serem facilmente interpretadas por humanos, já que as decisões são tomadas de forma sequencial e podem ser seguidas de maneira lógica. As árvores de decisão são aplicáveis a diversos problemas, como classificação, regressão e até tarefas mais complexas, como o aprendizado profundo. Trata-se de uma ferramenta versátil na área de inteligência artificial e aprendizado de máquina, graças à sua natureza interpretável e à capacidade de modelar relações não lineares nos dados.
+___
 
 ### Modelos de máquina de verdade de vetores de suporte
 
@@ -80,6 +82,8 @@ Esclarecido isso, vamos ao que se pretende alcançar. A função de decisão da 
 #### Espaço euclidiano
 
 - Um sistema matemático baseado na geometria de Euclides, caracterizado por ser um espaço vetorial com uma métrica que obedece às leis da geometria plana, como distâncias e ângulos bem definidos. Ele pode ter qualquer número de dimensões (ex.: 2D, 3D).
+
+___
 
 #### Margem
 
@@ -100,6 +104,7 @@ As SVMs podem tratar dados que não são linearmente separáveis no espaço orig
 Além da classificação, as SVMs também podem ser aplicadas a problemas de regressão. Nesse caso, em vez de encontrar um hiperplano que divida os dados, busca-se um hiperplano que passe perto da maioria deles, dentro de uma margem especificada. A vantagem é incluir regularização, o que significa penalizar soluções complexas. Isso ajuda a evitar o sobreajuste e melhora a capacidade de generalização do modelo. Por isso, as SVMs são muito úteis quando temos um conjunto de dados com muitas características e buscamos uma solução robusta que generalize bem para dados novos.
 
 Às vezes, a própria generalização faz com que sejam menos precisas em casos específicos, mas sua capacidade de processar dados não linearmente separáveis e sua versatilidade em termos de kernels tornam essa técnica valiosa no aprendizado de máquina.
+__
 
 ### Algoritmos de Agrupamento
 
