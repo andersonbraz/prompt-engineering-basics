@@ -83,8 +83,6 @@ Esclarecido isso, vamos ao que se pretende alcançar. A função de decisão da 
 
 - Um sistema matemático baseado na geometria de Euclides, caracterizado por ser um espaço vetorial com uma métrica que obedece às leis da geometria plana, como distâncias e ângulos bem definidos. Ele pode ter qualquer número de dimensões (ex.: 2D, 3D).
 
-___
-
 #### Margem
 
 - Distância entre o hiperplano e vetores de suporte mais próximos.
