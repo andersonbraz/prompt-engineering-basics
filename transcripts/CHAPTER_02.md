@@ -154,6 +154,12 @@ Temos ainda o **agrupamento espectral**, que utiliza o espectro da matriz de sim
 
 O agrupamento aglomerativo é uma abordagem hierárquica em que os pontos começam como clusters individuais que são combinados com base em sua similaridade. Cada ponto acaba formando um cluster individual, deixando de lado os exemplos. Um aspecto importante dos algoritmos de agrupamento que os diferencia de outras técnicas é que, ao contrário dos algoritmos de classificação, não exigem rótulos predefinidos para os dados. O objetivo é encontrar padrões e estruturas nos dados sem a necessidade de supervisão; por isso, não é preciso rotulá-los. Por outro lado, como se baseiam na medição de similaridade entre os pontos de dados, quanto mais semelhantes os pontos, maior a probabilidade de que pertençam ao mesmo cluster.
 
+#### Agrupamento aglomerativo
+
+- Abordagem hierárquico
+- Os pontos são combinados por similaridade
+- Cada ponto forma um cluster individual
+
 Um dos desafios enfrentados é definir o número ideal de clusters, o que pode exigir a realização de outras análises, como o método do cotovelo ou o índice de silhueta, para encontrar a quantidade adequada. Certamente, há muitos algoritmos de agrupamento, mas não existe um que seja sempre superior. O melhor algoritmo depende da natureza dos dados e dos objetivos da análise. Em todo caso, o pré-processamento dos dados é sempre fundamental, incluindo a eliminação de valores atípicos, a normalização de características e a seleção das características pertinentes.
 
 Resumindo, os algoritmos de agrupamento são ferramentas valiosas para análise de dados e identificação de padrões em conjuntos não rotulados. A seleção do algoritmo, o pré-processamento adequado dos dados e a interpretação dos resultados são fatores decisivos para obter resultados úteis nesses algoritmos.
